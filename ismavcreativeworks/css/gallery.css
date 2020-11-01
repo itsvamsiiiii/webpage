@@ -1,0 +1,44 @@
+body{
+    padding: 10px;
+    background-image: url(../images/aa.jpg)
+}
+.brand h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+.brand h1 span {
+	color: crimson;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:5px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+.box{
+    padding :10px;
+}
+.back {
+    position: bottom;
+    top: 0;
+    left: 0;
+    text-align: left;
+    display: block;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    background: rgba(0,0,0,0.25);
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    
+  }
+  .back:hover {
+    background: rgba(0,0,0,0.5);
+  }

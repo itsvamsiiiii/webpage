@@ -1,0 +1,229 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.STORY-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.STORY-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.STORY-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.STORY-table,.STORY-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.STORY-table-all{border:1px solid #ccc}
+.STORY-bordered tr,.STORY-table-all tr{border-bottom:1px solid #ddd}.STORY-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.STORY-table-all tr:nth-child(odd){background-color:#fff}.STORY-table-all tr:nth-child(even){background-color:#f1f1f1}
+.STORY-hoverable tbody tr:hover,.STORY-ul.STORY-hoverable li:hover{background-color:#ccc}.STORY-centered tr th,.STORY-centered tr td{text-align:center}
+.STORY-table td,.STORY-table th,.STORY-table-all td,.STORY-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.STORY-table th:first-child,.STORY-table td:first-child,.STORY-table-all th:first-child,.STORY-table-all td:first-child{padding-left:16px}
+.STORY-btn,.STORY-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.STORY-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.STORY-btn,.STORY-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.STORY-disabled,.STORY-btn:disabled,.STORY-button:disabled{cursor:not-allowed;opacity:0.3}.STORY-disabled *,:disabled *{pointer-events:none}
+.STORY-btn.STORY-disabled:hover,.STORY-btn:disabled:hover{box-shadow:none}
+.STORY-badge,.STORY-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.STORY-badge{border-radius:50%}
+.STORY-ul{list-style-type:none;padding:0;margin:0}.STORY-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.STORY-ul li:last-child{border-bottom:none}
+.STORY-tooltip,.STORY-display-container{position:relative}.STORY-tooltip .STORY-text{display:none}.STORY-tooltip:hover .STORY-text{display:inline-block}
+.STORY-ripple:active{opacity:0.5}.STORY-ripple{transition:opacity 0s}
+.STORY-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.STORY-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.STORY-dropdown-click,.STORY-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.STORY-dropdown-hover:hover .STORY-dropdown-content{display:block}
+.STORY-dropdown-hover:first-child,.STORY-dropdown-click:hover{background-color:#ccc;color:#000}
+.STORY-dropdown-hover:hover > .STORY-button:first-child,.STORY-dropdown-click:hover > .STORY-button:first-child{background-color:#ccc;color:#000}
+.STORY-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.STORY-check,.STORY-radio{width:24px;height:24px;position:relative;top:6px}
+.STORY-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.STORY-bar-block .STORY-dropdown-hover,.STORY-bar-block .STORY-dropdown-click{width:100%}
+.STORY-bar-block .STORY-dropdown-hover .STORY-dropdown-content,.STORY-bar-block .STORY-dropdown-click .STORY-dropdown-content{min-width:100%}
+.STORY-bar-block .STORY-dropdown-hover .STORY-button,.STORY-bar-block .STORY-dropdown-click .STORY-button{width:100%;text-align:left;padding:8px 16px}
+.STORY-main,#main{transition:margin-left .4s}
+.STORY-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.STORY-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.STORY-bar{width:100%;overflow:hidden}.STORY-center .STORY-bar{display:inline-block;width:auto}
+.STORY-bar .STORY-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.STORY-bar .STORY-dropdown-hover,.STORY-bar .STORY-dropdown-click{position:static;float:left}
+.STORY-bar .STORY-button{white-space:normal}
+.STORY-bar-block .STORY-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.STORY-bar-block.STORY-center .STORY-bar-item{text-align:center}.STORY-block{display:block;width:100%}
+.STORY-responsive{display:block;overflow-x:auto}
+.STORY-container:after,.STORY-container:before,.STORY-panel:after,.STORY-panel:before,.STORY-row:after,.STORY-row:before,.STORY-row-padding:after,.STORY-row-padding:before,
+.STORY-cell-row:before,.STORY-cell-row:after,.STORY-clear:after,.STORY-clear:before,.STORY-bar:before,.STORY-bar:after{content:"";display:table;clear:both}
+.STORY-col,.STORY-half,.STORY-third,.STORY-twothird,.STORY-threequarter,.STORY-quarter{float:left;width:100%}
+.STORY-col.s1{width:8.33333%}.STORY-col.s2{width:16.66666%}.STORY-col.s3{width:24.99999%}.STORY-col.s4{width:33.33333%}
+.STORY-col.s5{width:41.66666%}.STORY-col.s6{width:49.99999%}.STORY-col.s7{width:58.33333%}.STORY-col.s8{width:66.66666%}
+.STORY-col.s9{width:74.99999%}.STORY-col.s10{width:83.33333%}.STORY-col.s11{width:91.66666%}.STORY-col.s12{width:99.99999%}
+@media (min-width:601px){.STORY-col.m1{width:8.33333%}.STORY-col.m2{width:16.66666%}.STORY-col.m3,.STORY-quarter{width:24.99999%}.STORY-col.m4,.STORY-third{width:33.33333%}
+.STORY-col.m5{width:41.66666%}.STORY-col.m6,.STORY-half{width:49.99999%}.STORY-col.m7{width:58.33333%}.STORY-col.m8,.STORY-twothird{width:66.66666%}
+.STORY-col.m9,.STORY-threequarter{width:74.99999%}.STORY-col.m10{width:83.33333%}.STORY-col.m11{width:91.66666%}.STORY-col.m12{width:99.99999%}}
+@media (min-width:993px){.STORY-col.l1{width:8.33333%}.STORY-col.l2{width:16.66666%}.STORY-col.l3{width:24.99999%}.STORY-col.l4{width:33.33333%}
+.STORY-col.l5{width:41.66666%}.STORY-col.l6{width:49.99999%}.STORY-col.l7{width:58.33333%}.STORY-col.l8{width:66.66666%}
+.STORY-col.l9{width:74.99999%}.STORY-col.l10{width:83.33333%}.STORY-col.l11{width:91.66666%}.STORY-col.l12{width:99.99999%}}
+.STORY-rest{overflow:hidden}.STORY-stretch{margin-left:-16px;margin-right:-16px}
+.STORY-content,.STORY-auto{margin-left:auto;margin-right:auto}.STORY-content{max-width:980px}.STORY-auto{max-width:1140px}
+.STORY-cell-row{display:table;width:100%}.STORY-cell{display:table-cell}
+.STORY-cell-top{vertical-align:top}.STORY-cell-middle{vertical-align:middle}.STORY-cell-bottom{vertical-align:bottom}
+.STORY-hide{display:none!important}.STORY-show-block,.STORY-show{display:block!important}.STORY-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.STORY-auto{max-width:95%}}
+@media (max-width:600px){.STORY-modal-content{margin:0 10px;width:auto!important}.STORY-modal{padding-top:30px}
+.STORY-dropdown-hover.STORY-mobile .STORY-dropdown-content,.STORY-dropdown-click.STORY-mobile .STORY-dropdown-content{position:relative}	
+.STORY-hide-small{display:none!important}.STORY-mobile{display:block;width:100%!important}.STORY-bar-item.STORY-mobile,.STORY-dropdown-hover.STORY-mobile,.STORY-dropdown-click.STORY-mobile{text-align:center}
+.STORY-dropdown-hover.STORY-mobile,.STORY-dropdown-hover.STORY-mobile .STORY-btn,.STORY-dropdown-hover.STORY-mobile .STORY-button,.STORY-dropdown-click.STORY-mobile,.STORY-dropdown-click.STORY-mobile .STORY-btn,.STORY-dropdown-click.STORY-mobile .STORY-button{width:100%}}
+@media (max-width:768px){.STORY-modal-content{width:500px}.STORY-modal{padding-top:50px}}
+@media (min-width:993px){.STORY-modal-content{width:900px}.STORY-hide-large{display:none!important}.STORY-sidebar.STORY-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.STORY-hide-medium{display:none!important}}
+@media (max-width:992px){.STORY-sidebar.STORY-collapse{display:none}.STORY-main{margin-left:0!important;margin-right:0!important}.STORY-auto{max-width:100%}}
+.STORY-top,.STORY-bottom{position:fixed;width:100%;z-index:1}.STORY-top{top:0}.STORY-bottom{bottom:0}
+.STORY-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.STORY-display-topleft{position:absolute;left:0;top:0}.STORY-display-topright{position:absolute;right:0;top:0}
+.STORY-display-bottomleft{position:absolute;left:0;bottom:0}.STORY-display-bottomright{position:absolute;right:0;bottom:0}
+.STORY-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.STORY-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.STORY-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.STORY-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.STORY-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.STORY-display-container:hover .STORY-display-hover{display:block}.STORY-display-container:hover span.STORY-display-hover{display:inline-block}.STORY-display-hover{display:none}
+.STORY-display-position{position:absolute}
+.STORY-circle{border-radius:50%}
+.STORY-round-small{border-radius:2px}.STORY-round,.STORY-round-medium{border-radius:4px}.STORY-round-large{border-radius:8px}.STORY-round-xlarge{border-radius:16px}.STORY-round-xxlarge{border-radius:32px}
+.STORY-row-padding,.STORY-row-padding>.STORY-half,.STORY-row-padding>.STORY-third,.STORY-row-padding>.STORY-twothird,.STORY-row-padding>.STORY-threequarter,.STORY-row-padding>.STORY-quarter,.STORY-row-padding>.STORY-col{padding:0 8px}
+.STORY-container,.STORY-panel{padding:0.01em 16px}.STORY-panel{margin-top:16px;margin-bottom:16px}
+.STORY-code,.STORY-codespan{font-family:Consolas,"courier new";font-size:16px}
+.STORY-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.STORY-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.STORY-card,.STORY-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.STORY-card-4,.STORY-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.STORY-spin{animation:STORY-spin 2s infinite linear}@keyframes STORY-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.STORY-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.STORY-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.STORY-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.STORY-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.STORY-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.STORY-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.STORY-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.STORY-animate-input{transition:width 0.4s ease-in-out}.STORY-animate-input:focus{width:100%!important}
+.STORY-opacity,.STORY-hover-opacity:hover{opacity:0.60}.STORY-opacity-off,.STORY-hover-opacity-off:hover{opacity:1}
+.STORY-opacity-max{opacity:0.25}.STORY-opacity-min{opacity:0.75}
+.STORY-greyscale-max,.STORY-grayscale-max,.STORY-hover-greyscale:hover,.STORY-hover-grayscale:hover{filter:grayscale(100%)}
+.STORY-greyscale,.STORY-grayscale{filter:grayscale(75%)}.STORY-greyscale-min,.STORY-grayscale-min{filter:grayscale(50%)}
+.STORY-sepia{filter:sepia(75%)}.STORY-sepia-max,.STORY-hover-sepia:hover{filter:sepia(100%)}.STORY-sepia-min{filter:sepia(50%)}
+.STORY-tiny{font-size:10px!important}.STORY-small{font-size:12px!important}.STORY-medium{font-size:15px!important}.STORY-large{font-size:18px!important}
+.STORY-xlarge{font-size:24px!important}.STORY-xxlarge{font-size:36px!important}.STORY-xxxlarge{font-size:48px!important}.STORY-jumbo{font-size:64px!important}
+.STORY-left-align{text-align:left!important}.STORY-right-align{text-align:right!important}.STORY-justify{text-align:justify!important}.STORY-center{text-align:center!important}
+.STORY-border-0{border:0!important}.STORY-border{border:1px solid #ccc!important}
+.STORY-border-top{border-top:1px solid #ccc!important}.STORY-border-bottom{border-bottom:1px solid #ccc!important}
+.STORY-border-left{border-left:1px solid #ccc!important}.STORY-border-right{border-right:1px solid #ccc!important}
+.STORY-topbar{border-top:6px solid #ccc!important}.STORY-bottombar{border-bottom:6px solid #ccc!important}
+.STORY-leftbar{border-left:6px solid #ccc!important}.STORY-rightbar{border-right:6px solid #ccc!important}
+.STORY-section,.STORY-code{margin-top:16px!important;margin-bottom:16px!important}
+.STORY-margin{margin:16px!important}.STORY-margin-top{margin-top:16px!important}.STORY-margin-bottom{margin-bottom:16px!important}
+.STORY-margin-left{margin-left:16px!important}.STORY-margin-right{margin-right:16px!important}
+.STORY-padding-small{padding:4px 8px!important}.STORY-padding{padding:8px 16px!important}.STORY-padding-large{padding:12px 24px!important}
+.STORY-padding-16{padding-top:16px!important;padding-bottom:16px!important}.STORY-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.STORY-padding-32{padding-top:32px!important;padding-bottom:32px!important}.STORY-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.STORY-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.STORY-left{float:left!important}.STORY-right{float:right!important}
+.STORY-button:hover{color:#000!important;background-color:#ccc!important}
+.STORY-transparent,.STORY-hover-none:hover{background-color:transparent!important}
+.STORY-hover-none:hover{box-shadow:none!important}
+.STORY-amber,.STORY-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.STORY-aqua,.STORY-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.STORY-blue,.STORY-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.STORY-light-blue,.STORY-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.STORY-brown,.STORY-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.STORY-cyan,.STORY-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.STORY-blue-grey,.STORY-hover-blue-grey:hover,.STORY-blue-gray,.STORY-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.STORY-green,.STORY-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.STORY-light-green,.STORY-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.STORY-indigo,.STORY-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.STORY-khaki,.STORY-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.STORY-lime,.STORY-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.STORY-orange,.STORY-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.STORY-deep-orange,.STORY-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.STORY-pink,.STORY-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.STORY-purple,.STORY-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.STORY-deep-purple,.STORY-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.STORY-red,.STORY-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.STORY-sand,.STORY-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.STORY-teal,.STORY-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.STORY-yellow,.STORY-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.STORY-white,.STORY-hover-white:hover{color:#000!important;background-color:#fff!important}
+.STORY-black,.STORY-hover-black:hover{color:#fff!important;background-color:#000!important}
+.STORY-grey,.STORY-hover-grey:hover,.STORY-gray,.STORY-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.STORY-light-grey,.STORY-hover-light-grey:hover,.STORY-light-gray,.STORY-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.STORY-dark-grey,.STORY-hover-dark-grey:hover,.STORY-dark-gray,.STORY-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.STORY-pale-red,.STORY-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.STORY-pale-green,.STORY-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.STORY-pale-yellow,.STORY-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.STORY-pale-blue,.STORY-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.STORY-text-amber,.STORY-hover-text-amber:hover{color:#ffc107!important}
+.STORY-text-aqua,.STORY-hover-text-aqua:hover{color:#00ffff!important}
+.STORY-text-blue,.STORY-hover-text-blue:hover{color:#2196F3!important}
+.STORY-text-light-blue,.STORY-hover-text-light-blue:hover{color:#87CEEB!important}
+.STORY-text-brown,.STORY-hover-text-brown:hover{color:#795548!important}
+.STORY-text-cyan,.STORY-hover-text-cyan:hover{color:#00bcd4!important}
+.STORY-text-blue-grey,.STORY-hover-text-blue-grey:hover,.STORY-text-blue-gray,.STORY-hover-text-blue-gray:hover{color:#607d8b!important}
+.STORY-text-green,.STORY-hover-text-green:hover{color:#4CAF50!important}
+.STORY-text-light-green,.STORY-hover-text-light-green:hover{color:#8bc34a!important}
+.STORY-text-indigo,.STORY-hover-text-indigo:hover{color:#3f51b5!important}
+.STORY-text-khaki,.STORY-hover-text-khaki:hover{color:#b4aa50!important}
+.STORY-text-lime,.STORY-hover-text-lime:hover{color:#cddc39!important}
+.STORY-text-orange,.STORY-hover-text-orange:hover{color:#ff9800!important}
+.STORY-text-deep-orange,.STORY-hover-text-deep-orange:hover{color:#ff5722!important}
+.STORY-text-pink,.STORY-hover-text-pink:hover{color:#e91e63!important}
+.STORY-text-purple,.STORY-hover-text-purple:hover{color:#9c27b0!important}
+.STORY-text-deep-purple,.STORY-hover-text-deep-purple:hover{color:#673ab7!important}
+.STORY-text-red,.STORY-hover-text-red:hover{color:#f44336!important}
+.STORY-text-sand,.STORY-hover-text-sand:hover{color:#fdf5e6!important}
+.STORY-text-teal,.STORY-hover-text-teal:hover{color:#009688!important}
+.STORY-text-yellow,.STORY-hover-text-yellow:hover{color:#d2be0e!important}
+.STORY-text-white,.STORY-hover-text-white:hover{color:#fff!important}
+.STORY-text-black,.STORY-hover-text-black:hover{color:#000!important}
+.STORY-text-grey,.STORY-hover-text-grey:hover,.STORY-text-gray,.STORY-hover-text-gray:hover{color:#757575!important}
+.STORY-text-light-grey,.STORY-hover-text-light-grey:hover,.STORY-text-light-gray,.STORY-hover-text-light-gray:hover{color:#f1f1f1!important}
+.STORY-text-dark-grey,.STORY-hover-text-dark-grey:hover,.STORY-text-dark-gray,.STORY-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.STORY-border-amber,.STORY-hover-border-amber:hover{border-color:#ffc107!important}
+.STORY-border-aqua,.STORY-hover-border-aqua:hover{border-color:#00ffff!important}
+.STORY-border-blue,.STORY-hover-border-blue:hover{border-color:#2196F3!important}
+.STORY-border-light-blue,.STORY-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.STORY-border-brown,.STORY-hover-border-brown:hover{border-color:#795548!important}
+.STORY-border-cyan,.STORY-hover-border-cyan:hover{border-color:#00bcd4!important}
+.STORY-border-blue-grey,.STORY-hover-border-blue-grey:hover,.STORY-border-blue-gray,.STORY-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.STORY-border-green,.STORY-hover-border-green:hover{border-color:#4CAF50!important}
+.STORY-border-light-green,.STORY-hover-border-light-green:hover{border-color:#8bc34a!important}
+.STORY-border-indigo,.STORY-hover-border-indigo:hover{border-color:#3f51b5!important}
+.STORY-border-khaki,.STORY-hover-border-khaki:hover{border-color:#f0e68c!important}
+.STORY-border-lime,.STORY-hover-border-lime:hover{border-color:#cddc39!important}
+.STORY-border-orange,.STORY-hover-border-orange:hover{border-color:#ff9800!important}
+.STORY-border-deep-orange,.STORY-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.STORY-border-pink,.STORY-hover-border-pink:hover{border-color:#e91e63!important}
+.STORY-border-purple,.STORY-hover-border-purple:hover{border-color:#9c27b0!important}
+.STORY-border-deep-purple,.STORY-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.STORY-border-red,.STORY-hover-border-red:hover{border-color:#f44336!important}
+.STORY-border-sand,.STORY-hover-border-sand:hover{border-color:#fdf5e6!important}
+.STORY-border-teal,.STORY-hover-border-teal:hover{border-color:#009688!important}
+.STORY-border-yellow,.STORY-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.STORY-border-white,.STORY-hover-border-white:hover{border-color:#fff!important}
+.STORY-border-black,.STORY-hover-border-black:hover{border-color:#000!important}
+.STORY-border-grey,.STORY-hover-border-grey:hover,.STORY-border-gray,.STORY-hover-border-gray:hover{border-color:#9e9e9e!important}
+.STORY-border-light-grey,.STORY-hover-border-light-grey:hover,.STORY-border-light-gray,.STORY-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.STORY-border-dark-grey,.STORY-hover-border-dark-grey:hover,.STORY-border-dark-gray,.STORY-hover-border-dark-gray:hover{border-color:#616161!important}
+.STORY-border-pale-red,.STORY-hover-border-pale-red:hover{border-color:#ffe7e7!important}.STORY-border-pale-green,.STORY-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.STORY-border-pale-yellow,.STORY-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.STORY-border-pale-blue,.STORY-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
