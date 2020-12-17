@@ -42,7 +42,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: crimson;
+	color: rgb(0, 0, 0);
 }
 
 .cta {
@@ -474,7 +474,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid rgb(19, 119, 185);
 	}
 	#about .col-right {
 		text-align: left;
